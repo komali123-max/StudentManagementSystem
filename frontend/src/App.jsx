@@ -16,7 +16,7 @@ function App() {
 
   const [editingId, setEditingId] = useState(null);
 
-  const API = 'http://localhost:5000/api/students';
+  const API = 'https://student-management-backend-2sr3.onrender.com/api/students';
 
   // Fetch all students
   const fetchStudents = async () => {
